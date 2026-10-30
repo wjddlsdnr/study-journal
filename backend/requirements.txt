@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+sqlalchemy
+bcrypt
+PyJWT
+Pillow
+pytesseract
+numpy
+scikit-learn

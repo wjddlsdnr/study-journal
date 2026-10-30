@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+mark {
+  background-color: #fef08a;
+  font-weight: bold;
+  padding: 0 2px;
+  border-radius: 4px;
+}
+
+body {
+  @apply font-sans;
+  background: linear-gradient(135deg, #fff8eb 0%, #f9f6ef 50%, #fffbf4 100%);
+  background-image: repeating-linear-gradient(
+    to bottom, 
+    #f9f6ef, 
+    #f9f6ef 38px, 
+    #f5ebd8 39px, 
+    #f9f6ef 40px
+  ); /* 공책 가로줄 효과 */
+}
